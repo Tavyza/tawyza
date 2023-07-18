@@ -1,0 +1,1 @@
+print("if you see this the setup script worked")
