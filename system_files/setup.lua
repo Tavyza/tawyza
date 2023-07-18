@@ -4,4 +4,4 @@ wget("https://raw.githubusercontent.com/Tshema/tawyza/main/system_files/main_sys
 wget("https://raw.githubusercontent.com/Tshema/tawyza/main/system_files/command_prompt.lua")
 wget("https://raw.githubusercontent.com/Tshema/tawyza/main/system_files/file_manager.lua")
 wget("https://raw.githubusercontent.com/Tshema/tawyza/main/system_files/systemsettings.lua")
-end
+
