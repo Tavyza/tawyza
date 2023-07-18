@@ -4,4 +4,3 @@ os.execute("wget https://raw.githubusercontent.com/Tshema/tawyza/main/system_fil
 os.execute("wget https://raw.githubusercontent.com/Tshema/tawyza/main/system_files/command_prompt.lua")
 os.execute("wget https://raw.githubusercontent.com/Tshema/tawyza/main/system_files/file_manager.lua")
 os.execute("wget https://raw.githubusercontent.com/Tshema/tawyza/main/system_files/systemsettings.lua")
-
