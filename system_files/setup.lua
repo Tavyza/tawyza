@@ -10,5 +10,7 @@ os.execute("wget -f https://raw.githubusercontent.com/Tshema/TawyzaOS/main/syste
 local file = io.open("/home/autorun.lua", "w")
 file:write('os.execute("main_system.lua")')
 file:close()
-
-print("System files installed.")
+if success then
+    print("System files installed.")
+else
+    print("OS installation failed.")
