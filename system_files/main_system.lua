@@ -31,6 +31,7 @@ while true do
     gpu.fill(1,1,w,h, "")
     gpu.setForeground(0xFFFFFF)
     gpu.setBackround(0x99B2F2)
+    --gpu.setBackround(0x99B2F2)
 
     local ev = table.pack(event.pull())
 
