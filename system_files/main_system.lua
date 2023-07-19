@@ -3,7 +3,7 @@ local event = require("event")
 local gpu = component.gpu
 local term = require("term")
 
-local w, h = gpu.getResolution()
+local w, h = gpu.gesolution()
 
 local options = {
     "File manager",
