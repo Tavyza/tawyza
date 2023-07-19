@@ -27,7 +27,7 @@ local function render()
 end
 
 while true do
-    local w,h = gpu.gesolution()
+    local w,h = gpu.getResolution()
     gpu.fill(1,1,w,h "")
     gpu.setForeground(0xFFFFFF)
     gpu.setBackround(0x99B2F2)
