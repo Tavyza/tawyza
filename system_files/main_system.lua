@@ -15,6 +15,7 @@ local options = {
 }
 local osVersion = "0.1.16" -- os version, 0.1.x is alpha, 0.2.x is beta, >1.x.x are release versions
 local index = 1
+local w, h = gpu.getResolution()
 
 local function render()
     for i, option in ipairs(options) do -- iterate through options
@@ -27,8 +28,7 @@ local function render()
 end
 
 while true do
-    local wide, tall = gpu.getResolution()
-    gpu.fill(1,1,wide, tall "")
+    gpu.fill(1,1,w,h, "")
     gpu.setForeground(0xFFFFFF)
     gpu.setBackround(0x99B2F2)
 
