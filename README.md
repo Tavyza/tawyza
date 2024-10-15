@@ -1,5 +1,6 @@
 # tawyza
-An OS for Opencomputers.
+A shell for OpenComputers. 
+This is dead. Use TherOS instead.
 
 # How to install:
 - Open modded minecraft with the Opencomputers mod in your mods folder
